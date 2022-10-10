@@ -1,5 +1,5 @@
 *{
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Quicksand', sans-serif;
 }
 html[data-theme="light"]{
     --dh-bg-dark:var(--bs-white);
@@ -44,9 +44,10 @@ body{
     border-radius: 35px 0px 35px 0px;
 }
 .img-fluid{
-    height: 230px;
+    width: 100%;
     object-fit: cover;
     transition: 0.5s;
+    height: 250px;
 }
 .img-about{
     height: 500px;
@@ -201,6 +202,7 @@ i{
         display: none;
     }
     .img-fluid{
+        width: 100%;
         height: 300px;
     }
     .text-ipad-center{
