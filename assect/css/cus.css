@@ -15,7 +15,7 @@ body{
     color:var(--dh-text-dark);
 }
 .logo{
-    width: 70px;
+    width: 50px;
 }
 .text-other{
     color: #223640;
@@ -144,6 +144,13 @@ i{
     transform: translateY(0) rotate(315deg);
     width: 40px;
     transition: 0.25s;
+}
+.product-img{
+    transition: 0.5s;
+    height: 300px;
+}
+.product-img:hover{
+  transform: scale(1.2);
 }
 
 .o-n:focus {
